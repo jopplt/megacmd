@@ -25,5 +25,8 @@ jobs:
         with:
           context: .
           push: true
+          build-args: |
+            UBUNTU_VERSION=21.04
+            MEGA_VERSION=1.4.0-1.1_amd64
           tags: |
             jopplt/megacmd:1.4.0
